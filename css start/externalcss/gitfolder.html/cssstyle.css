@@ -1,0 +1,28 @@
+body{ 
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: medium;
+    text-align: center;
+    background-color: lightgrey;
+    margin=20px;
+ }
+ h1{
+    color:black;
+    margin-botton: 30 px;
+ }
+ /* product box  */
+ product box{
+    background-color: white;
+    width:300px;
+    margin:0 auto;
+    padding: 15px;
+    border:2px solid grey;
+    border_radius:8px;
+ }
+ button{
+   background-color: blue;
+   color:white;
+   padding:10px 20px;
+   border:none;
+   border-radius:5px;
+ 
+ }

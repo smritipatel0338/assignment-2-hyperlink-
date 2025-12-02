@@ -1,0 +1,66 @@
+<!---html element <p>,<h1>,<div>is treated as rectangular box =4layer
+    content,padding(space inside box),border,margin(space outside box)-->
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8"> 
+        <title>My E-commerce Store</title>
+       <link rel="stylesheet" href="cssfile.css">
+        </head>
+        <body>
+            <h2>box1 : box-sizing: content-box</h2>
+            <div>
+                <!---product details-->
+                <h2>style t-shirt</h2>
+                <div class=""Product-Box">
+                     <!----product image--->   
+                <img src="tshirt.jpg" alt="product image">
+                <!---product description-->
+                <h2>style t-shirt</h2>
+                <p class="description">a comfortable cotton t shirt for casual wear</p>
+                <p class="price">PRICE=Rs499 </p>
+                <button>add to cart</button>
+            </div>
+            <p>this is content box</p>
+        </div>
+        </body>
+</html>
+<!----- padding=20px(left) +20px(right)=40px----
+       border 5px+5px=10px
+       content width =200-(40+10)=150px
+       total width =200px(stays same)----
+       hover effect
+       blocke level =div container to group elements
+       span =inline elements--->
+  
+       <!-----(r,g,b,alpha)=255,0,0,0.5=red with 50% opacity-alpha gives transparency---
+       COMES IN HEXA DECIMAL VALUE 
+       255
+       1111 1111
+       15     15
+       F      F-
+       #FF0000=RED
+       #00FF00=GREEN>
+
+
+       <margin=(top,right,bottom,left) 4 values
+       margin= 10px 20px 15px 5px;
+       when only two values are given
+       margin= 10px 20px;
+         top and bottom =10px
+            left and right =20px
+         when only one value is given
+            margin=10px;
+            all four sides =10px)
+         padding=(top,right,bottom,left) 4 values
+            padding= 10px 20px 15px 5px;
+            when only two values are given
+            padding= 10px 20px;
+              top and bottom =10px
+                 left and right =20px
+              when only one value is given
+                 padding=10px;
+                 all four sides =10px)
+                 margin 10px auto ,
+                 top and bottom=10px
+                 left and right =auto(centered)------

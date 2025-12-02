@@ -1,0 +1,44 @@
+<!---html element <p>,<h1>,<div>is treated as rectangular box =4layer
+    content,padding(space inside box),border,margin(space outside box)-->
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            
+        div{
+            height :100px;
+            width :200px;
+            background-color: rgb(211, 211, 211);
+            border: 5px solid rgb(255, 0, 81);
+            box-sizing: content-box; /*default value */;
+            padding: 20px;
+            margin: 15px;
+        }
+        </style>
+        </head>
+        <body>
+            <h2>box1 : box-sizing: content-box</h2>
+            <div>
+                <!---product details-->
+                <h2>style t-shirt</h2>
+                <div class=""Product-Box">
+                     <!----product image--->   
+                <img src="tshirt.jpg" alt="product image">
+                <!---product description-->
+                <h2>style t-shirt</h2>
+                <p class="description">a comfortable cotton t shirt for casual wear</p>
+                <p class="price">PRICE=Rs499 </p>
+                <button>add to cart</button>
+            </div>
+            <p>this is content box</p>
+        </div>
+        </body>
+</html>
+<!----- padding=20px(left) +20px(right)=40px----
+       border 5px+5px=10px
+       content width =200-(40+10)=150px
+       total width =200px(stays same)----
+       hover effect
+       blocke level =div container to group elements
+       span =inline elements--->
+  

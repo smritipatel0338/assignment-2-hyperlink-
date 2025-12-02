@@ -1,0 +1,63 @@
+body{
+    font-famliy:Arial,sans-serif;
+    margin:20px;
+    background-color:#16ac1b;
+    text-align: center;
+}
+.Product-Box{
+    width:200px;
+    padding:20px;
+    border:5px solid #333;
+    margin:0 auto;
+    box-sizing: border-box;
+    background-color:#f4f4f4;
+    transition: all 0.3s ease;
+}
+.Product-Box:hover{
+    box-shadow:0 0 10px rgba(0,0,0,0.5);
+    transform:scale(1.05);
+}
+.description{
+    font-size:16px;
+    color:#555;
+}   
+.price{
+    font-size:18px;
+    font-weight:bold;
+    color:#e91e63;
+}
+button{
+    padding:10px 15px;
+    background-color:#28a745;
+    color:#fff;
+    border:none;
+    cursor:pointer;
+    font-size:16px;
+}
+button:hover{
+    background-color:#218838;
+}
+/*---box-sizing:border-box;
+     total width=width+padding+border
+     content-box=default
+     total width=width only
+     padding and border added to width---*/
+/*---hover effect on product box---*/
+/*---styling description ,price and button---*/
+/*---centering product box --*/
+/*---adding transition effect on hover---*/
+/*---background color and text alignment for body---*/
+/*---styling product box---*/
+/*---box model properties explained in comments---*/
+/*---box-sizing:border-box;
+     total width=width+padding+border
+     content-box=default
+     total width=width only
+     padding and border added to width---*/
+
+     .heading_style{
+        color:#333;
+        font-size:24px;
+        margin-bottom:15px;
+     }
+     

@@ -1,0 +1,66 @@
+/* general styling */
+body{
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+.menu-block {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+/* block example */
+.menu-block a{
+    background-color: darkblue;
+    text-decoration:none;
+    color: white;
+    padding: 10px ;
+    display: block;
+    border-bottom: 1px solid #ddd;
+    margin: 5px 0;
+}
+
+/* inline example */
+.menu-inline a{
+    background-color: darkgreen;
+    text-decoration:none;
+    color: white;
+    padding: 5px;
+    display: inline;
+    border: 2px solid #ddd;
+}
+
+/*inline-block example*/
+.menu-inline-block a{
+    background-color: purple;
+    text-decoration:none;
+    color: white;
+    height: 50px;
+    width:120px;
+    padding: 10px 15px ;
+    display: inline-block;
+    border: 2px solid #ddd;
+    margin: 5px;
+}
+ /*float example*/
+ .menu-float a{
+    background-color: orange;
+    text-decoration:none;
+    color: white;
+    padding: 10px 15px ;
+    float:right;
+    border: 2px solid #ddd;
+    margin: 5px;
+ }
+    /*clear example*/
+    .clear-example{
+        background-color: lightgray;
+        padding: 10px;
+        margin-top: 50px;
+        clear: both;
+        border:1px solid lightgray;
+    }
+    .clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}

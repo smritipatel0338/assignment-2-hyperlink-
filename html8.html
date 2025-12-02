@@ -1,0 +1,60 @@
+<!--flex=flexible box layoutn=flexible and responsive  layout-
+row(left to right),row reverse(right to left) column and column reverse 
+
+
+ when elements in x direction then x axis (horizontal (dir =row)it is main axis and y axis is cross axis
+ CONTROLSS OF HORIZONTAL 
+ JUSTIFY CONTENT PROPERTY
+ 1.flex start (default),center ,flex end, 
+ space between (equal space between items ),space_around=equal space around each item )=-1--2 --3-,space evenly(equal spaces everywhere=even gaps )--1--2--3--) -->
+<!--align items =verticle
+flex star =defaut flex -end ,center,stretch,baseline 
+
+box shadow =add shadow effect
+box-shadow:h-offset v-offset blur spread color;-
+v vertical and h means horizontal dix offsett + or -
+ spread size of shadow  blue=soft or clearshadow,color of shadow
+ a =alpha means tranceparency ranges from 0 to 1
+-->
+ <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flexible layout playground</title>
+    <style>
+        .container {
+            display: flex; /* Enables Flexbox layout */
+            flex-wrap: wrap; /* Allows items to wrap to the next line */
+            gap: 10px; /* Space between items */
+            background-color: #f0f0f0;
+            padding: 10px;
+            flex-direction: column; /* Arrange items in a column */
+            width: 500px; /* Set container width */
+        }
+        .item {
+            display: flex;
+            background-color: #4CAF50;
+            color: white;
+            padding: 20px;
+            text-align: center;
+            flex: 1 1 100px; /* Grow, shrink, basis */
+        }
+        .item1 {
+            margin: 20px;
+        }
+        .item3 {
+            margin: 20px;
+        }
+        </style>
+</head>
+<body>
+    <div class="container">
+        <div class="item item1">Item 1</div>
+        <div class="item item2">Item 2</div>
+        <div class="item item3">Item 3</div>
+        <div class="item item4">Item 4</div>
+        <div class="item item5">Item 5</div>
+    </div>
+</body> 
+</html>

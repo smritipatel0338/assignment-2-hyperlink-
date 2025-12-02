@@ -1,0 +1,25 @@
+<!--grid line like border>>?>?>? 
+space b/w to grid lines is grid track for row span anmd col span)
+grid cel >?>?>?smallest space>>>
+grid area =combination of row anmd column
+header>>? sidebar>>? content and footer
+gap=gap bet row and columns
+.container{
+display:grid;
+grid-template-column:200px 200px 200px(creates 3 colummns width is imp) and grid-template-row}
+using fraction unit>>grid-template-columns: 1fr 2fr 1fr; (1 part 2 part 1 part)
+grid-template-columns: repeat(3, 1fr); (3 equa-width columns,can be abs unit or fr unit)
+ands for rows (height is measured)also>>
+grid-template-rows:100px 200px 100px;
+grid-template-rows: repeat(3, 100px); (3 rows of 100px each)
+grid-template-rows: auto auto auto; (height based on content)
+minmax function>>grid-template-columns: minmax(100px, 1fr) (min 100px max 1fr)
+C.gap=
+gap:20px;
+or gap:row-gap column-gap;
+grid-column-gap:20px;
+grid-temmplate-column:autofit,minmax(100px,1fr)
+make multiple columsn based on space available
+with autofill it will create as many columns as possible even if empty>>>
+grid-auto-rows:150px;
+set hieght for the thjerows thatare created automatically-->
